@@ -1,0 +1,156 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.9) !important;
+    transition: background 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+    color: #ffcc00 !important;
+}
+
+.navbar-brand:hover {
+    color: #f39c12 !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.3s;
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #f39c12 !important;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 35px rgba(255, 255, 255, 0.7);
+}
+
+.profile h2, .profile h4 {
+    color: white;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+}
+
+/* Biodata Section */
+.BIODATA {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    padding: 50px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease, background 0.3s;
+}
+
+.BIODATA:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    box-shadow: 0px 6px 25px rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.4);
+}
+
+/* Buttons */
+.btn-danger {
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 12px 22px;
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    border: none;
+}
+
+.btn-danger:hover {
+    background: linear-gradient(135deg, #ff5733, #d32f2f);
+    transform: scale(1.1);
+    box-shadow: 0px 4px 20px rgba(255, 0, 0, 0.6);
+}
+
+/* Achievements Section */
+.achievement {
+    margin-bottom: 8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff, #f1f1f1);
+    color: #333;
+    border-radius: 10px;
+    padding: 40px;
+    transition: transform 0.3s ease, background 0.3s;
+}
+
+.achievement:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+}
+
+/* Contact Section */
+#contact {
+    margin-top: 8rem;
+    padding-top: 8rem;
+    text-align: center;
+    background: linear-gradient(135deg, #292E49, #536976);
+    color: white;
+    padding-bottom: 4rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background 0.3s;
+}
+
+#contact:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(135deg, #314755, #64708b);
+}
+
+#contact a img {
+    transition: transform 0.3s ease;
+}
+
+#contact a img:hover {
+    transform: scale(1.2);
+}
